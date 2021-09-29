@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>PetCare</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/icons8-dog-48.png" />
+    <link rel="stylesheet" href="css/imgCarrucel.css">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg  ">
+        <div class="container col-md-12">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/icons8-dog-48.png" width="30" height="30" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">Bienvenido a PetCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="citas.html">Citas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="donar.html">Donar</a></li>
+                </ul>
+                <form class="d-flex">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- finnav -->
+
+    <!-- Header Carrusel-->
+    <header class="bg-white mt-3 ">
+        <div class="container col-md-12">
+            <div class="text-center text-white">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/q.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/progat.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/g.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- fin carrusel -->
+    <!-- Section-->
+    <section class="mt-4 mb-5">
+        <div class="container col-md-7  col-sm-2">
+            <h3 class=" mb-4">Agende una cita con nosotros</h3>
+            <form class="row g-3">
+                <!-- CITA -->
+                <div class="col-md-4">
+                    <label for="" class="form-label">Fecha de su cita</label>
+                    <input type="date" class="form-control" id="idfecha" name="txtfecha">
+                </div>
+                <!-- hora -->
+                <div class="col-md-4">
+                    <label for="" class="form-label">Hora de su vicita</label>
+                    <input type="text" class="form-control" id="idhora" placeholder="ejemplo 5:20" name="txthora">
+                </div>
+                <!-- nombre -->
+                <div class="col-md-4">
+                    <label for="" class="form-label">Nombre</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">
+                            <i class="bi bi-person-square"></i>
+                        </span>
+                        <input type="text" class="form-control" id="idnameCliente" name="txtnameCliete">
+                    </div>
+                </div>
+                <!-- direccion -->
+                <div class="col-md-6">
+                    <label for="" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="iddire" name="txtdire">
+                </div>
+                <!-- apellido paterno -->
+                <div class="col-md-3">
+                    <label for="" class="form-label">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="idpaterno" name="txtpaterno">
+                </div>
+                <!-- apellido Materno -->
+                <div class="col-md-3">
+                    <label for="" class="form-label">Apellido Materno</label>
+                    <input type="text" class="form-control" id="idmaterno" name="txtmaterno">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Acepto los terminos y condiciones es de mame xd
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-success" type="submit">Enviar datos</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer-->
+    <footer class="py-4 bg-dark footer post-footer">
+        <p class="m-0 text-center text-white">Copyright &copy; PetCare 2021</p>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

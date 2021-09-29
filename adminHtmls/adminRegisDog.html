@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>PetCare</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/icons8-dog-48.png" />
+    <link rel="stylesheet" href="/css/imgCarrucel.css">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+        <div class="container col-md-12">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/icons8-dog-48.png" width="30" height="30" alt="">
+            </a>
+            <a class="navbar-brand" href="#!">Admin PetCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Ver animales </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Ver citas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Ver donaciones</a></li>
+                </ul>
+                <form class="d-flex">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Carrusel-->
+    <header class="bg-white mt-3 ">
+        <div class="container col-md-5">
+            <h1 class="text-center">Registro de Mascotas</h1>
+            <form>
+                <!-- nombre -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1">Nombre de la mascota</label>
+                    <input type="text" class="form-control" name="txtname" id="idname" placeholder="Ingrese nombre">
+                </div>
+                <!-- raza -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1" for="">Raza</label>
+                    <input type="text" class="form-control" name="txtraza" id="idraza" placeholder="Ingrese la raza">
+                </div>
+                <!-- peso -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1" for="">Peso de la mascota</label>
+                    <input type="text" class="form-control" name="txtpeso" id="idpeso" placeholder="Ingrese peso">
+                </div>
+                <!-- color -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1" for="">Color de la mascota</label>
+                    <input type="text" class="form-control" name="txtcolor" id="idcolor" placeholder="Ingrese color">
+                </div>
+                <!-- imagen -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1" for="">Imagen</label>
+                    <input type="text" class="form-control" name="txtimg" id="idimg" placeholder="Ingrese color">
+                </div>
+                <!-- edad -->
+                <div class="form-group mb-2 mt-2">
+                    <label class="mb-1" for="">Edad</label>
+                    <input type="text" class="form-control" name="txtedad" id="idedad" placeholder="Ingrese edad">
+                </div>
+                <!-- selector de animal -->
+                <div class="form-group  mb-2 mt-2">
+                    <label class="mb-1" for="">Seleccione animal</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>[Escoja Animal]</option>
+                        <option value="1">Perros</option>
+                        <option value="2">Gatos</option>
+                    </select>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto mt-3">
+                    <button class="btn btn-success" type="button">Guardar Mascota</button>
+                </div>
+
+            </form>
+        </div>
+    </header>
+    <!-- Section-->
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>

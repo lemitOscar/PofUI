@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>PetCare</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/icons8-dog-48.png" />
+    <link rel="stylesheet" href="css/imgCarrucel.css">
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+     <!-- Navigation-->
+     <nav class="navbar navbar-dark bg-dark navbar-expand-lg  ">
+        <div class="container col-md-12">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/icons8-dog-48.png" width="30" height="30" alt="">
+            </a>
+            <a class="navbar-brand" href="index.html">Bienvenido a PetCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="citas.html">Citas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="donar.html">Donar</a></li>
+                </ul>
+                <form class="d-flex">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- finnav -->
+     <!-- Header Carrusel-->
+     <header class="bg-white mt-3 ">
+        <div class="container col-md-12">
+            <div class="text-center text-white">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/q.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/progat.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/g.jpeg" class="d-block w-100 imgc" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- fin carrusel -->
+    <!-- Section-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-1">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- una card -->
+                <div class="col mb-5">
+                    <div class="card h-100">
+                        <!-- imagen del prro -->
+                        <img class="card-img-top imgcard"
+                            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRUSERUVGBIZERIRERISGBESGBIRGBgZGRgYGRgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJCM0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EADcQAAICAQMBBQYFAwQDAQAAAAECABEDBBIhMQVBUWFxBhMUIoGRMqGxwdFCUvAHYnLhM5LxI//EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAIBEBAQEBAAICAwEBAAAAAAAAAAERAhIhMUEDE1FhIv/aAAwDAQACEQMRAD8A7D4rzjjVec5j46ETWy/KIyumXVQi6qc0mt84ZNZF5Q8dENTHGpmEurj/ABcPKDG4dTG+JmGdXF8XDygxufExfEzC+Li+LhsGN34mL4mYJ1kh8ZDYTofiY3xM5/4yL4yPYHQjVR/ipz41cl8VDYG98VF8VMP4qL4uGw8bnxUXxUwvi4x1UNgxunVSJ1UwzqoJ9VDygxutqoN9X5zCbVwD6uRe4uc1vNrPOAfXecwH1ZgG1RmXX5Vzh0La3zgn1nnME6oxjqZl1+VpOGy+rld9X5zKfUwD6iRfyq8Wq+r84B9b5zKfPANmk/sovMaL6qAfUyg2aCbNDypLzamBfVSi+WV2yw8qVq7k1UqHLK75IL3kSbXaBjCKxg1hEEv9qvARGMMjGQRYZVh+0eCa5DH94YwEeoftHgXvDH3GICPUP2jwLcYt0QEeo/2l+shHAiAk1WP9peCO2ILChZNUj/aPAJVhAkMmOa2g7LDcv08OhlTu9fAvMjF2RDHOmPZOMG7NX+E1Uv4UC8KAB4AASpv2XjHG/Cv3I3/q0G+IjqCPUETu3Y93SEKhhTUR3g8g/SP3/Sx50YNjO9fsnCTZRet8cA/SZ3avYSOv/wCdK46DuPrJ68sOY4x2lZ3htUjISrAhgaIPdKGTJOe91tOYd3gmyQOTLK7ZpHkfqLRySLZZTOWCfLJ0auNmgHzyq+WAbLDCvS42aCbLKZyRHJHIi1YOWDbJAs8GzypCtFd4F3kGaQLSpE2nZpG5EmNcrEu9SHQQKGWEnO6x0EIJBDJAxU0xFEDFEDgx7iAkqgDCOI1R4QqkJNZAGESPSEQS7p9KWG7gKOpJqVMYja7U3WJWocWenr6mXzJfkZ/Gp79MYsEM3j3D0h17SAAZq5FiyB+pE5rEhY7a4HP/AH5n/qWdbkK7MfG92Avi1QcsfLib83J6K8xvJr95vnnoJp6YE9aHl5TBTWphRsjkAKpYkmgqqOSTMXsz2wOfVKuMNta9m4Mu8CgaBAPFg9B1mvMvyzrvG3D04+0MkWwleev7wWpRgh2/iA485WJ0difpKr5xe09e6cJ2d/qBt1Pwuddu7K2PkG0b/fdUCeARf0nWa/VorYzY+Z9g9aJr8jJ6uTT5nvDakY34zIjFeQWAND+JyntT2WiKMmJaUmmC0AvhxOk15VTz4/cGY3agvTtRII22L4Iuv3nP1fqtc9bHDOJXZJoPikPczOJUCkGyTSOCQbTxkynSAZDNZ9PAvp4yrL2GLbNA6eROnjJQYSBl9sEE+CVKmqTSBltsEgcENSrRqlj3UXuoeQdqksoZWWWEmVdGjqZMGDBk1knqSmTEismsWDUhJgRlk1EMGo1FULUkEjwaCFhFElsjgQwaNg4I9Zne0OIoBkW6J+bymljh9TjD42Qj+k1K5/hzr2xewtzm7sDm5nvrGy63YPwjfVeFKBf/AKn7zb7I0uzHsHDudo/Oz9BZ+kztJplx6zJS7V22pN9Ok0/kO33WlrOxVyqceUsytXAJHPcKHH3l72V9k8GlyHJjW8hWtzfMVU9eT4yel1aC3Zr/ALR1mnoM52lz1PPjOnnPiMOt+a19Tq0xruyOqr4kgQGl7Zw5SVxurEdRfM8Y9ue1tR8QwK2ing38oHjQP3PpMPsrtnPvTJiVAA67jZscjoN19/hNMZve9T2HhbKNQcae8/voWfCz4+c532/02zTJkx0rJqcbN3Xdr+rCdTpcxfAjH8WwMfWpz3tPk95pcoIsg4zzyDtdD+0y7zGnFuxTXWnLpsOatz2Mb+TeMq9qP8ox9/Vq/SWfZ1f/ACY6pH25sY/tbowqUtQDubd1s36zk6/rbq+sZhwRvh5f2xbZOoUfcSJ080NsYrDQzG00G2lmrsjFI9DHbSwbaWbJSQOKPSxjtpYF9LN73Mg2CGljAfSwL6WdE2mgH00NLxYB0sb4abh0sh8NDR4io0sIZSSW8cVPVhYVRBLDrJPUlEIBGUSYEASiEWDUQqxaNFVYQLBoYVY9M22LbJxVDQSCWkujQs1wJXSXMAjg0bsbREt7zIRuqgq/hVfLzmV7RaTZl94o4Io83xOoxJsTzMyu1vnWu8Ts/X/x/qPO+WuXfIAC6iwO6z9ZrL2gGxIysKr+kkV5+FTMyIAjp/WQRZ6AHuE4fUa3NpWKIbQnlTyArbwD9Plh+O+8PuetbPtNjXKa2hqF2Tzzf+fWc/2VpED2mxiHNFWViFvgS1rtBkyCnbiui8A33zM7J7JYOG5G1iCfQ1L30v8ATZce39j6tVxC3H4QgP8Acx4AEWrwM491Qq6JPeJx/s7oy2Uh3c40RciJfCO/TjxoHnwaehaVbIPgOLkW+VxnefCs3X9kNjxo+Mneg/EOTXf16jymFqXDNurk8t5t3mu6egZMYdCp7xOA1OMq7KRyGImX5ufHLBz1b6V6iqECx9s51g7YtsIVjVFoDIkSsIRGIj0BBYxWEqMRAkQIiI5jXDTRYQbLJkyJj0BssHthmkIaFJEllEk0xw6pBAaJDJIx0MQ1YUSarBrCCA04ElGAkwsWDRFEIsgokoz1KKRuNcBo6zS0CWR95kLkmt2X3mafim9Qur6aeoPcJl6rixDZMt3z31KWfKOhud3Xwyjnu0m299G+JzXtDpRkX3q8FOWHU+JFToO2mFE9wFkzA0zvvcnqQLBHFHgAzm3OtdEmzGr7H51zYxjcLvWygsFjiBA59Cah9XoFRyOiFyzHwXq37znn7MKuM+hynFkHDIaIUnqCpsEeR4mvoOztTqXU63Oox1bY8KhPeAdzH6GbXrm/bXn8uSbPh0/sjp9yPkI+Z3YBhYDovCkD0/edfhShMfs3KgATGoXGoCoo42qJsJkhM+nN3bflaScj7R46zGgOQDx3zrcbTE9p9KTsyAcVtY+HhJ/NN5RPlzSrHKQqrIuJxNAisgVhItsAEVjFIYJJbIYpV2RistFJEpAKrCDaWGWCZYAAxVCFIgsCiBSD2yzUWyBq+OFuVwZLfFpYmxkA0a7iqGks42h05lNDLCPDQuIsIFgcbwoaGkIBIOYt0g8VoNuj3AAyatCUJiaWjy0jeky7ljT5Oo8RNvw3OoOvhcwsQparJPAlXOXPh6VLaOdg/wA4gsoJHy/ed/U9M+b7c9qUZ2BYfIpPTkM47/MD9ZLTdnhrawT5ccS2aB2mqHdIvj2kMhrkWAeouc/XMrbm4Fq+zdp3AC9u2/HniLTKUIocbvzN8zoNM6OKfy/+yp2ntxgf3Hhf+PjM7z7aTr0taPiyOvFibWncdbnI6DWspthwav0m7ptar8BhfkZrzYy610GDIDwDZ767pYdA6lWFgiiJmaZq75dx5r6TaM65DU49jsvgT9oFpY7XyA5WI8ZUDTh7ydWRpPgxEdRG3RbpmcT2xyJDfGZ4aYlSLLB7o+6PQG4gGWHyNBxALZGZJYVYikJDU5K5LIsHuiwIKkk2KRR5YDx4XoLHhlg6biTxyxfEqc+i9KaaaF+GlnARLRUSfH0PSguGGXDJs0kjQnI9GXDIZMMtoZHJkAEd5hM84JJcMMGuEDCTzD9KbJGQEG5Y4uGTGDNOZd2C4fGCUHErsHY7VoDvP8XDPlCChX8XCabHfM7+qykU9dowFFct42LmJnysl2LA8fGdkNED158JxftbqvduMZHXoZn18NI1+zbcKwPBAPpC+0OTacamr29/rMv2d1iog3Hmyw9O8SWdX1uW8ZrEpouf0Ud56yc9D7U1ytkc40FgcFl6dek6XsrsZ0G4tz120KqX+yexUx1tH18/Ga7iukU5/p2/xDTpQH6cmHy5AqMx6BTcrYWN9eJDtnLtx13samu5zrOz25lhZJg2hlEhkE4LGkAZ46G4/u7k0xxZTICQYyyVldk5ivNCKyai41VCpHIAnSRWHyDiCxrzH4pOeJE5JZdOJW2XKyjVfIYKpfbEKgdok+NCiw5lnEwMznJuSO4c90NLWmcgEkM3Ep4E3VcNlx1Ho9rGPMBLSZ7mK7beT0LAfeamkxH8opaPabNZhVibHLeLCGEealW3RsiEjiWmxgGjHIHSO878hm7CJB3Imq+EESv7kc3FmBnLkJMtDKRFlRUBbwlHBqWduVpegjnox9Tl8fWWuzsvhf5/vM7tBwNp7hwTLGgaiK56d87JfLmVM9V1elNicH/qfg2HFk7m3qfUUf8APSd12ef8E5z/AFP7PbJpkdASEy7nr+lCpF+l194uvhU+XnOk1Tu640NX1P8At/mej9gqMSBKoV1PfPOuylGN1Y9/f4TrcXay8Bjx4zK9Y1nPp2GPtEXUlqO0gKNcGuRc5HT6q3pW+n8Q7dsKzDGnzFeGruMfPVqeucdVpdQGN36CVO3tRexfCzIdmKep6HmZ+vcszHus/aP8nWc5/Wf2gjwxUVKIfjzvkQmLLfBnPLD9jrJ+fmB9TwJAuPGDzAOhWyLqiOoIIIP3Aj2BZYWIFhJHNX1EC73C4PYLPzCK8ZMXeYvfovy7gW8PCL4Hsz5DFiJ6yOZwAakNDmsHxi32erOR+glVc5Ba/wAPG395J35uNkx2L8o9PUH1t8QfvYFNNdkAyGxhxFpDogIH15hVwE8VApqgrDGOSxIUeJ6y7oMlBg/dceLDwYD6ecm2As1fWGXKNvSx4/pJ4XtrUccX6Q8YVsFxaUbSCAT/ABD40546QWHUDfXiPtG+Mpio8Lr6x+oQ2XGe7rBaZnBqPj7QXeuMhtzW11YrzPdJZ85Rhf4TwD5/5+kVknsJ5QxIMBmym+JHCHBLO3y3SKO4efnIZMyB6uibPlYhfgYsF2oGDzOV+/5wY1BIIJrw8uL5lb4xS6qSLNgdOo6/vEMTphbN0PdBLyCw6eEnqNVwx8GZQJnpq6V7I47vOLAtajDvxt41czeye0Co2P1B2+vnFh7ZTaQzAdwvv7pnYnX3gFjaTZPkOTOv8Pwi+q9A7M13SdKiK6FXAKMpV1PQqeCJxfYqhiK8Z2eAVVTSU7Hi3tHofh8+XT2SEf5Ceuw8rfnREyFyP+Hmd3/qX2DlfUpnwgMr41R1BCkOpIvnqKK/ac1i7EyAfOyAllVaO4g383TqaE5+8nS5fSWlyjFj94a94x2ID4kct9B+0L7Pp84JPJJPqZS1OJsj7FB+S1VfIdfrNbslPdm24CjcwPG2iTzfkPzjuSCXXdo5TGT5UPUzn9WpfG6CwXR1sdQCKLfS5p6rtNHxocTKyseT9x+RA+8p6PI275+rGgKr5e4fmT9TJ7stRFPBS0DfCgWfLiW0x38y/lA+0GkD1iW1DDlk8F+c/fbUtYtQqWoHSiL8SLMzuQ5AV0pHU/1Gh5QiIPpK2TVcsb5B6R9PkI3A10sg96kXJ8p9DFjcLF8i7/8AkfUrypXoRf0gOzntxvHygW3fQPQjyktTqtuTIg/8f4Qf91BiR9CI/KYInqMvFDw5P7eszBpQW33zcuYcgKLzbFb9epktThAAc8Db08+/8wZNyw8QzGh48RdmYtwZh61KwX5+AxSixPNLXdF2ZqFRflui77A3epZq+nBkzrmUZNEyPusKO6/rIYtQVHzQuiG8bhVk7q5F+Aj63SkKxdeSVA289ea8vD7xzrZpyetVzn2W24kHlQapfISumctZ8zILp6VwSWZcaMBVEu1dB4AQmDGK5faRxtpuI5YKWnBQhxV7XPJ6Du9P+5oZdO+1m4JYHbV9KP2uxHilQhNLiKoTXBA+U+BNAjz6yWgzhA3PIGReaIsoxA9P3qKKLq2ZhRQ0WpORmccA8jrwef4qTfKQQq0+QUH6gEMGqj/EUUU+j+hNu351b5mpSLuq6/N67R9o+Jjk3Am9qrYsHaW/qB/2/tFFD+BaXMwRV4ZwTu8LXr6A/vK2XTlnVu62NE95ZqI+ymKKT5UqbTaR15u2ZQbsc9b47uv2lPJ2cWcMopQy7RfDm9xAv0PeOoiilQ/oHUIwyMFNkr0PUBvxfU8nu5EychNng1a725oC65469OIooc2+VSj8AMivuIVgVAB7uOfpx+YlVdMUpEBLsR8zddoo15dPyjxTadVVnt6P7PYdqDI5quaPFes3R2qgOzcN3Qd/MUU266skxLC7e7QGbagBVlOTnwFCh+onKPjfeoU1TMveOlciKKc3fVt9iLi4Qjn5QGItOlErVbvIiGxaf3wDtS7FVB4gAW33P5ARRTPq2/Kj6XSBQERgPn38Cvm4PBHS6F+ks5Mvz1kYb+CpUGuQA1g1z/niYooBW0OIrkA3EkHIVvkbXFFT3cUCP+R8pYZCjlmA2r8u27B3UTfj1oV0r6xRR34EG02nDBgQu1mPHUr3r+YjLiRX299EVzYUdAfERRSZPUCObC3yqpKguNzXwRfzA+VEn1MoZsL7yE4Qs5X/AJFhx5UB6cR4ouhPgcaNveL8wpFHWhRrqfQj/Lh1IJAINbqqjVE814Dr94oo4cLU0KVDwOK8RcpugAO9ei7RfcvT+BFFM+vs8C02rukSrtSSeB/x8h/nre1OUKFVGoAqwJs8qbqKKPn4RLVN3T5GRPmICvRJ68gWe4UIfFpAoAYkt1J46mKKXFV//9k="
+                            alt="..." />
+                        <!-- detalles del prro -->
+                        <div class="card-body">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">EL firulais</h5>
+                                <!-- Product price-->
+                                <div class="input-group">
+                                    <h6 class="mx-2">Raza:</h6>
+                                    <h6>poner raza</h6>
+                                </div>
+                                <!-- edad del can -->
+                                <div class="input-group text-center">
+                                    <h6 class="mx-2">Edad:</h6>
+                                    <h6>poner edad</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin una card -->
+            
+                <!-- fin de todas las cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- paginador -->
+    <div class="d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+    </div>
+
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; PetCare 2021</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
